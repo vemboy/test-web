@@ -12,7 +12,7 @@ export default function Page() {
     desc: string;
   } | null>(null);
   useEffect(() => {
-    axios.get(`http://localhost:3001/products/${id}`).then((res) => {
+    axios.get(`http://3.15.27.30:3001/products/${id}`).then((res) => {
       const product = res.data;
       console.log(product);
       setProduct(product);
