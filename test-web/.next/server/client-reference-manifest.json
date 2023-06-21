@@ -59,7 +59,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/app-router.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -67,7 +67,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/app-router.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -75,7 +75,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/error-boundary.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -83,7 +83,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -91,7 +91,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -99,7 +99,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -107,7 +107,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -115,7 +115,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -123,7 +123,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -131,7 +131,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -139,7 +139,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -147,7 +147,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -155,7 +155,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -163,7 +163,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -171,7 +171,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/layout-router.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -179,7 +179,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -187,7 +187,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -195,7 +195,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -203,7 +203,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -211,7 +211,7 @@
       ],
       "async": false
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -221,16 +221,16 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/vempapazian/Desktop/test-web/test-web/src/app/layout": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\src\\app\\layout": {
       "modules": [
-        "/Users/vempapazian/Desktop/test-web/test-web/src/app/globals.css",
-        "/Users/vempapazian/Desktop/test-web/test-web/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\src\\app\\globals.css",
+        "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
       ],
       "files": [
         "static/css/app/layout.css"
       ]
     },
-    "/Users/vempapazian/Desktop/test-web/test-web/src/app/page": {
+    "C:\\Users\\vem\\OneDrive\\Desktop\\test-web\\test-web\\src\\app\\page": {
       "modules": [],
       "files": []
     }

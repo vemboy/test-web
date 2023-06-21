@@ -2,38 +2,43 @@ import { useRouter } from "next/router";
 import axios, {AxiosError} from "axios";
 import { useEffect, useState } from "react";
 
-interface ValidationError {
-  message: string;
-  errors: Record<string, string[]>
-}
+console.log("HELLOOOOOOO")
 
 export default function Page() {
   const router = useRouter();
   const { id } = router.query;
-
+  const [count, setCount] = useState(0); //initial value of this 
   const [product, setProduct] = useState<{
     id: number;
     title: string;
     desc: string;
   } | null>(null);
   useEffect(() => {
-    axios.get(`http://3.15.27.30:3001/products/${id}`)
+    setCount((count) => count + 1); //increment this Hook
+    axios.get(`http://localhost:3001/products/${id}`)
     .then((res) => {
-      console.log("NUMBER 1 THEN GOT TRIGGERED")
       const product = res.data;
       console.log(product);
       setProduct(product);
     })
-    .then(data => {
-      console.log("NUMBER 2 THEN GOT TRIGGERED")
-      console.log(data)
-    })
-    .catch(error => {
-      console.log("ERROR GOT TRIGGERED")
-      console.log(error.response.data.error)
-    })
-
-    
+    .catch(function (error) {
+      if (error.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        console.log(error.response.data);
+        console.log(error.response.status);
+        console.log(error.response.headers);
+      } else if (error.request) {
+        // The request was made but no response was received
+        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+        // http.ClientRequest in node.js
+        console.log(error.request);
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.log('Error', error.message);
+      }
+      console.log(error.config);
+    });
   });
 
   return (
@@ -45,6 +50,7 @@ export default function Page() {
       </p>
       <div style={{ marginLeft: "5vw" }}>
         <a href="/">back</a>
+        <p> Amount of times UseEffect is called: {count} </p>
       </div>
     </div>
   );
