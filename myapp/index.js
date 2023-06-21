@@ -11,7 +11,7 @@ const port = 3001
 const products = [{id: 1, title: "hello", desc: "hi hi hi :)"}, {id: 2, title: "helllooo", desc: "hi helo hi :("}];
 
 app.get('/', (req, res) => {
-  res.send('hihihi!')
+  res.send('get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! get rekt n00bs 😎😎😎😎! ')
 })
 
 app.get('/products', (req, res) => {
