@@ -18,7 +18,7 @@ export default function Page() {
     //   return;
     // }
     axios
-      .get(`http://${backendURL}/products/`)
+      .get(`https://${backendURL}/products/`)
       .then((res) => {
         const product = res.data;
         console.log(product);
