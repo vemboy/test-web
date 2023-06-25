@@ -19,7 +19,7 @@ export default function Page() {
     if (!id) return;
     setCount((count) => count + 1); //increment this Hook
     axios
-      .get(`http://${backendURL}/products/${id}`)
+      .get(`https://${backendURL}/products/${id}`)
       .then((res) => {
         const product = res.data;
         console.log(product);
