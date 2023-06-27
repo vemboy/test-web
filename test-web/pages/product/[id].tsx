@@ -56,7 +56,7 @@ export default function Page() {
         {product?.desc}
       </p>
       <div style={{ marginLeft: "5vw" }}>
-        <a href="http://localhost:3000/products">back</a>
+        <a href={'http://' + backendURL + '/'}>back</a>
         <p> Amount of times UseEffect is called: {count} </p>
         {error ? <p> Displaying error: {error} </p> : null}
       </div>
