@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import axios, { AxiosError } from "axios";
 import { useEffect, useState } from "react";
 
+
 const backendURL = process.env.NEXT_PUBLIC_URL;
 
 export default function Page() {
@@ -18,7 +19,7 @@ export default function Page() {
     //   return;
     // }
     axios
-      .get(`https://${backendURL}/products/`)
+      .get(`http://${backendURL}/products/`)
       .then((res) => {
         const product = res.data;
         console.log(product);

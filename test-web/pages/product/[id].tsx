@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import axios, { AxiosError } from "axios";
 import { useEffect, useState } from "react";
 
+
 const backendURL = process.env.NEXT_PUBLIC_URL;
 const HOMEPAGEURL = process.env.HOME_PAGE;
 
@@ -20,7 +21,7 @@ export default function Page() {
     if (!id) return;
     setCount((count) => count + 1); //increment this Hook
     axios
-      .get(`https://${backendURL}/products/${id}`)
+      .get(`http://${backendURL}/products/${id}`)
       .then((res) => {
         const product = res.data;
         console.log(product);
@@ -57,6 +58,7 @@ export default function Page() {
         {product?.desc}
       </p>
       <div style={{ marginLeft: "5vw" }}>
+        
         <a href={HOMEPAGEURL}>back</a>
         <p> Amount of times UseEffect is called: {count} </p>
         {error ? <p> Displaying error: {error} </p> : null}
