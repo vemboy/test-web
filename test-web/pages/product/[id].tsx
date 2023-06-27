@@ -3,6 +3,7 @@ import axios, { AxiosError } from "axios";
 import { useEffect, useState } from "react";
 
 const backendURL = process.env.NEXT_PUBLIC_URL;
+const HOMEPAGEURL = process.env.HOME_PAGE;
 
 export default function Page() {
   const router = useRouter();
@@ -56,7 +57,7 @@ export default function Page() {
         {product?.desc}
       </p>
       <div style={{ marginLeft: "5vw" }}>
-        <a href={'http://' + backendURL + '/'}>back</a>
+        <a href={HOMEPAGEURL}>back</a>
         <p> Amount of times UseEffect is called: {count} </p>
         {error ? <p> Displaying error: {error} </p> : null}
       </div>
